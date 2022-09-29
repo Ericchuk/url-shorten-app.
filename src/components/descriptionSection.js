@@ -1,9 +1,4 @@
 import illustration from '../url-shortening-api-master/images/illustration-working.svg'
-import Input from "./inputSection";
-import Static from './statics';
-import Boost from './boostSection';
-import Footer from './footerSection';
-
 
 function DescriptionSection(){
     return (
@@ -22,10 +17,6 @@ function DescriptionSection(){
           </aside>
         </section>
 
-        <Input />
-        <Static />
-        <Boost />
-        <Footer />
       </article>
     );
 }
