@@ -271,6 +271,7 @@ header nav button:hover{
   font-size: 16px;
   color:var(--white);
   font-weight: 600;
+  cursor:pointer;
 }
 .input .links .link button.copied{
   background-color: var(--Very-Dark-Blue);
@@ -506,8 +507,9 @@ footer .socialMedia svg:hover path{
   }
 
   .input .links .link button{
-    width:auto;
+    padding:10px 40px;
     margin:0;
+    /* border:2px solid red; */
   }
 
   .input .links .link p{

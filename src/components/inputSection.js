@@ -21,4 +21,3 @@ function InputSection({ inputValue, setInputValue, onClick, list, setList }) {
 }
 
 export default InputSection;
-// export default Input;
